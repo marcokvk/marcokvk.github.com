@@ -9,7 +9,7 @@
   <meta charset="utf-8">
 
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
-       More info: h5bp.com/b/378 -->
+   More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>Marco von Knobloch</title>
@@ -21,6 +21,9 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
+  <script type="text/javascript" src="http://use.typekit.com/zwq6prh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
@@ -29,8 +32,8 @@
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
-       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
-       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+   Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+   For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
   <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> -->
 </head>
 
@@ -40,14 +43,37 @@
 		<h1 class="title">marco<br/>von<br/>knobloch</h1>
 	</div>
 
+		
+
 	<ul class="menu clearfix">
-		<li class="menu-item menu-item_curent"><a href="">work</a></li>
-		<li class="menu-item"><a href="">personal</a></li>
-		<li class="menu-item"><a href="">about</a></li>
-		<li class="menu-item"><a href="">contact</a></li>
+		<li class="menu__item menu__item_curent">
+			<div class="menu__gap">work</div>
+			<a href="">work</a>
+		</li>
+		<li class="menu__item">
+			<div class="menu__gap">personal</div>
+			<a href="">personal</a>
+		</li>
+		<li class="menu__item">
+			<div class="menu__gap">about</div>
+			<a href="">about</a>
+		</li>
+		<li class="menu__item">
+			<div class="menu__gap">contact</div>
+			<a href="">contact</a>
+		</li>
 	</ul>		
 
-	<div class="content">content</div>
+	<div class="content">
+		
+		<div class="content-block">
+			<h2 class="conten-block__header">sefelizhazfeliz</h2>
+			<div class="content-block__info">Bio<br/>2009</div>
+			<div class="content-block__info">tag1 / tag2 / tag3</div>
+			<div class="content-block__text">Lorem ipsum dolor sit blabla</div>
+		</div>
+		
+	</div>
 
 	<div class="footer">footer</div>
 
