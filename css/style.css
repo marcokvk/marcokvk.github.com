@@ -215,7 +215,7 @@ td { vertical-align: top; }
 
 .header {
 	color: #47DDAF;
-	border-bottom: 0.5pt solid #47DDAF;
+	border-bottom: 1px solid #47DDAF;
 	margin: 8em;
 	padding-bottom: 10px;
 }
@@ -238,7 +238,11 @@ td { vertical-align: top; }
 
 
 .menu {
+	font-size: 110%;
+	border-bottom: 1px solid #47DDAF;
+	margin: 8em;
 	background-color: none;
+	padding-bottom: 1em;
 }
 
 .menu__item {
@@ -275,12 +279,10 @@ td { vertical-align: top; }
 }
 
 
-.content-block {
-	
-}
-
-.conten-block__header {
-	font-size: 120%;
+.content-block__header {
+	font-family: "abril-display", "georgia", serif;
+	font-style: italic;
+    font-size: 120%;
 	background: url("../apple-touch-icon.png") repeat-x bottom;
 	padding-bottom: 10px;
 	margin: 0;
@@ -288,9 +290,18 @@ td { vertical-align: top; }
 }
 
 .content-block__info {
-	color: green;
+	color: #47DDAF;
+	font-size: 110%;
+	line-height: 20px;
 	padding-bottom: 0.5em;
 	clear: both;
+}
+
+.content-block__text {
+	font-size: 110%;
+	line-height: 20px;
+	padding-bottom: 2em;
+	
 }
 
 .content-block__text {
@@ -298,9 +309,10 @@ td { vertical-align: top; }
 }
 
 .footer {
-	background-color: blue;
+	background-color: #47DDAF;
+	height: 100px;
+	margin: 0 8em;
 }
-
 
 
 
