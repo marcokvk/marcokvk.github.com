@@ -215,12 +215,13 @@ td { vertical-align: top; }
 
 .header {
 	color: #47DDAF;
-	border-bottom: 1px solid #47DDAF;
-	margin: 8em;
-	padding-bottom: 10px;
+	border-bottom: 2px solid #47DDAF;
+	margin: 7.5em;
+	padding-bottom: 15px;
 }
 
 .header .logo-1 {
+	max-width: 100%;
 	float: left;
 	background-color: none;
 	background-image: url(img/logo-1.png)	
@@ -239,15 +240,15 @@ td { vertical-align: top; }
 
 .menu {
 	font-size: 110%;
-	border-bottom: 1px solid #47DDAF;
-	margin: 8em;
+	border-bottom: 2px solid #47DDAF;
+	margin: 7.5em;
 	background-color: none;
 	padding-bottom: 1em;
 }
 
 .menu__item {
 	float: left;
-	margin-right: 8em;
+	margin-right: 7.5em;
 	list-style: none;
 	font-size: 120%;
 }
@@ -264,7 +265,7 @@ td { vertical-align: top; }
 .menu__item_curent {
 	font-weight: bold;
 	padding-bottom: 0.3em;
-	border-bottom: 1px solid green;
+	border-bottom: 2px solid #47DDAF;
 }
 
 .menu__gap {
@@ -275,16 +276,18 @@ td { vertical-align: top; }
 
 
 .content {
-	margin: 0 8em;
+	margin: 0 7.5em;
 }
 
 
 .content-block__header {
 	font-family: "abril-display", "georgia", serif;
+	font-weight: 200;
 	font-style: italic;
-    font-size: 120%;
-	background: url("../apple-touch-icon.png") repeat-x bottom;
-	padding-bottom: 10px;
+    font-size: 180%;
+    letter-spacing: 0.6px;
+	background: url("../img/line-heading.png") repeat-x bottom;
+	padding-bottom: 8px;
 	margin: 0;
 	float: left;
 }
@@ -310,8 +313,8 @@ td { vertical-align: top; }
 
 .footer {
 	background-color: #47DDAF;
-	height: 100px;
-	margin: 0 8em;
+	height: 130px;
+	margin: 0 7.5em;
 }
 
 
