@@ -216,7 +216,7 @@ td { vertical-align: top; }
 .header {
 	color: #47DDAF;
 	border-bottom: 2px solid #47DDAF;
-	margin: 7.5em;
+	margin: 5em 7.5em 0em;
 	padding-bottom: 15px;
 }
 
@@ -232,9 +232,9 @@ td { vertical-align: top; }
 
 
 .menu {
-	font-size: 110%;
+	font-size: 100%;
 	border-bottom: 2px solid #47DDAF;
-	margin: 7.5em;
+	margin: 0em 7.5em 6em;
 	background-color: none;
 	padding-bottom: 1em;
 }
@@ -277,12 +277,10 @@ td { vertical-align: top; }
 }
 
 .content-block__header {
-	font-family: "abril-display", "georgia", serif;
-	font-weight: 200;
-	font-style: italic;
-    font-size: 180%;
-    letter-spacing: 0.6px;
-	background: url("../img/content-block__header.png") repeat-x bottom;
+	font-family: "nimbus-sans", sans-serif;
+	font-weight: 100;
+    font-size: 230%;
+    letter-spacing: 0.04em;
 	padding-bottom: 8px;
 	margin: 0;
 	float: left;
@@ -295,7 +293,7 @@ td { vertical-align: top; }
 .content-block__info {
 	color: #47DDAF;
 	font-size: 110%;
-	line-height: 20px;
+	line-height: 15px;
 	padding-bottom: 0.5em;
 	clear: both;
 }
