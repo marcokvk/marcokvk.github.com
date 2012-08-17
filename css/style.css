@@ -216,7 +216,7 @@ td { vertical-align: top; }
 .header {
 	border-bottom: 1px solid #47DDAF;
 	margin: 7.5em 7.5em 0em;
-	padding-bottom: 15px;
+	padding-bottom: 1.1em;
 }
 
 .header__title {
@@ -227,15 +227,21 @@ td { vertical-align: top; }
 
 .menu {
 	font-size: 100%;
-	border-bottom: 1px solid #47DDAF;
-	margin: 0em 7.5em 6em;
 	background-color: none;
-	padding-bottom: 1em;
+
+	margin: -1.1em 7.5em 6em;
+}
+
+.menu__inner {
+	float: right;
+	width: 50%;
+	padding: 0 0 1em;
+	border-bottom: 1px solid #47DDAF;
 }
 
 .menu__item {
 	float: left;
-	margin-right: 7.5em;
+	margin-right: 3.5em;
 	list-style: none;
 	font-size: 120%;
 }
@@ -245,7 +251,11 @@ td { vertical-align: top; }
 	text-decoration: none;
 }
 
-.menu__item:hover {
+.menu__item a:visited {
+	color: black;
+}
+
+.menu__item a:hover {
 	font-weight: bold;
 }
 
@@ -266,22 +276,34 @@ td { vertical-align: top; }
 	margin: 0 7.5em;
 }
 
-.content-block_align_right {
+.content-block {
+	width: 50%;
+	float: left;
+	clear: both;
 	text-align: right;
+}
+
+.content-block_align_right {
+	float: right;
+	text-align: left;
+}
+
+h1.content-block__header {
+    font-size: 230%;
 }
 
 .content-block__header {
 	font-family: "nimbus-sans", sans-serif;
 	font-weight: 100;
-    font-size: 230%;
+    font-size: 200%;
     letter-spacing: 0.04em;
 	padding-bottom: 8px;
 	margin: 0;
-	float: left;
+	float: right;
 }
 
 .content-block_align_right .content-block__header {
-	float: right;
+	float: none;
 }
 
 .content-block__info {
@@ -310,8 +332,10 @@ td { vertical-align: top; }
 }
 
 .nav__button {
-	color: black;
+	color: #000;
 	text-decoration: none;
+	padding: 0.55em 0 0.5em;
+	background: url("../img/blank-circle.png") no-repeat 0 50%;
 }
 
 .nav__button:visited {
@@ -323,19 +347,16 @@ td { vertical-align: top; }
 
 .nav__button_action_top {
 	padding-left: 30px;
-	height: 30px;
-	color: #000000;
-	text-decoration: none;
 	float: left;
-	background: url("../img/top.png") no-repeat 0 100%;
+	background-image: url("../img/top.png");
+	background-position: 0 50%;
 }
 
 .nav__button_action_index {
-	height: 30px;
-	color: #000000;
-	text-decoration: none;
+	padding-right: 30px;
 	float: right;
-	background: url("../img/index.png") no-repeat 0 100%;	
+	background-image: url("../img/index.png");
+	background-position: 100% 50%;
 }
 
 /**
