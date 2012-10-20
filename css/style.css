@@ -281,11 +281,18 @@ td { vertical-align: top; }
 	float: left;
 	clear: both;
 	text-align: right;
+	padding-bottom: 1em;
 }
 
 .content-block_align_right {
 	float: right;
 	text-align: left;
+}
+
+.content-block_align_wide {
+	float: none;
+	width: 100%;
+	text-align: center;
 }
 
 h1.content-block__header {
@@ -325,6 +332,16 @@ h1.content-block__header {
 	clear: both;
 }
 
+img.content-block__image,
+.content-block__video {
+    width: 100%;
+}
+
+.content-block__video {
+    background-color: #000;
+}
+
+    
 .nav {
 	padding: 1em 0;
 	margin: 0 7.5em;
